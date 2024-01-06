@@ -1,0 +1,38 @@
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+.navItems > ul{
+    display: flex;
+    list-style-type: none;
+  
+}
+.navItems > ul > li{
+    padding: 6px;
+    margin:8px;
+
+}.card{
+    width:400px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.imageFood{
+    width:100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}.card-details{
+    padding:6px;
+    box-sizing: border-box;
+}
+.entireCard{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px 20px;
+}
